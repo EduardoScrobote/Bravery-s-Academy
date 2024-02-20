@@ -3,9 +3,9 @@ function Bravery() {
   return (
     <div className="w-full mt-32 flex flex-col p-12 gap-16 justify-center items-center">
       <img
-        src="/Coach-Bravery.jpeg"
+        src="/igor-cabeca-quadrada.jpg"
         alt="foto do coach bravery"
-        className="rounded-full bg-cover w-[9rem] h-[9rem] scale-[2]"
+        className="rounded-full w-[8rem] h-[8rem] bg-cover scale-[2]"
       />
       <p className="text-4xl text-[#E7D006] mt-16">Igor "Bravery" Carvalho</p>
       <p className="text-white w-[28rem] text-2xl">

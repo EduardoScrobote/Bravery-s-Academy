@@ -9,7 +9,7 @@ function App() {
         <div className="w-full flex justify-center items-center">
           <p className="text-white text-3xl">
             Alcance o <span className="text-[#E7D006] font-bold">MMR</span> dos
-            seus sonhos com a bravery academy!
+            seus sonhos com a Bravery`s Academy!
           </p>
           <img
             src="IMMORTAL.png"
