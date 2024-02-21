@@ -38,11 +38,11 @@ export const Feedbacks: FeedbacksProp = [
   {
     name: "Eduardo Scrobote",
     feedback:
-      "Fala brave, gostaria de deixar meu feedback sobre a bravery academy, com tudo que aprendi no coach, estava sempre preparado para os games, mentalmente, técnicamente, antenado no meta e com o conhecimento suficiente para stompar os jogos mesmo como suporte 5, além do preparo psicológico que me fez aproveitar melhor esse jogo tão incrivel, Acho que é isso, PRA CIMA BRAVOS!!!!",
+      "Fala brave, gostaria de deixar meu feedback sobre a bravery academy, com tudo que aprendi no coach, estava sempre preparado para os games, mentalmente, técnicamente, antenado no meta e com o conhecimento suficiente para stompar os jogos mesmo como suporte 5, além do preparo psicológico que me fez aproveitar melhor esse jogo tão incrivel. Acho que é isso. PRA CIMA BRAVOS!!!!",
     duration: "4 meses",
     playerProfile: (
       <img
-        src="/x1imba-profile.jpg"
+        src="/Scrobote-profile.jpeg"
         alt="player profile photo"
         width={64}
         height={64}

@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { Feedbacks } from "./Feedbacks";
 import { GoArrowRight } from "react-icons/go";
 
-import React, { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef } from "react";
 
 function Carousel() {
   const carousel = useRef(null);
