@@ -1,10 +1,31 @@
-import "./App.css";
+import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import Bravery from "./components/coachs/Bravery/Bravery";
+import "./App.css";
+import Carousel from "./components/carousel/Carousel";
 
 function App() {
   return (
     <div className="w-full h-screen">
-      <div className="w-full h-[75%] flex bg-no-repeat bg-cover bg-center bg-main-bg"></div>
+      <div className="w-full h-[75%] flex bg-no-repeat justify-end bg-cover bg-center bg-main-bg">
+        <div className="flex h-24 w-14 items-center justify-center bg-transparent hover:cursor-pointer">
+          <FaWhatsapp
+            color="green"
+            size={46}
+            style={{
+              backgroundColor: "transparent",
+            }}
+          />
+        </div>
+        <div className="flex h-24 w-24 items-center justify-center bg-transparent hover:cursor-pointer">
+          <FaInstagram
+            color="#fa574f"
+            size={46}
+            style={{
+              backgroundColor: "transparent",
+            }}
+          />
+        </div>
+      </div>
       <div className="flex flex-col">
         <div className="w-full flex justify-center items-center">
           <p className="text-white text-3xl">
@@ -21,6 +42,7 @@ function App() {
         </div>
       </div>
       <Bravery />
+      <Carousel />
     </div>
   );
 }
