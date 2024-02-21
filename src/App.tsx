@@ -9,15 +9,10 @@ function App() {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
-      transition={{ duration: 3 }}
+      transition={{ duration: 0.3 }}
       className="w-full h-screen"
     >
-      <motion.div
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 4 }}
-        className="w-full h-[75%] flex bg-no-repeat justify-end bg-cover bg-center bg-main-bg"
-      >
+      <motion.div className="w-full h-[75%] flex bg-no-repeat justify-end bg-cover bg-center bg-main-bg">
         <div className="flex h-24 w-14 items-center justify-center bg-transparent hover:cursor-pointer">
           <FaWhatsapp
             color="green"
