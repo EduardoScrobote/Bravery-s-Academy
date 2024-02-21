@@ -33,7 +33,7 @@ export const Feedbacks: FeedbacksProp = [
       />
     ),
     before: "3234",
-    after: "3850",
+    after: "4820",
   },
   {
     name: "Eduardo Scrobote",
@@ -50,6 +50,6 @@ export const Feedbacks: FeedbacksProp = [
       />
     ),
     before: "770",
-    after: "3080",
+    after: "3388",
   },
 ];
