@@ -5,6 +5,7 @@ export default {
     extend: {},
     backgroundImage: {
       "main-bg": "url('/background-image.jpeg')",
+      flame: "url('/fire-22.gif')",
     },
   },
 };
