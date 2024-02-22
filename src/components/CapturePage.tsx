@@ -8,8 +8,9 @@ function Capture() {
       transition={{ duration: 0.3 }}
       className="w-full h-screen"
     >
-      <motion.div className="h-[100vh] flex flex-col justify-center bg-no-repeat bg-cover text-white bg-center bg-main-bg">
-        <div className="flex gap-[25%] w-[100%] justify-center">
+      <motion.div className="h-[100vh] flex flex-col justify-center text-white">
+        <div className="absolute top-0 -z-10 w-full h-screen bg-center bg-main-bg bg-no-repeat bg-cover brightness-50"></div>
+        <div className="flex gap-[25%] w-[100%] justify-center mt-2">
           <img
             src="/logo.jpeg"
             alt="logo bravery"
