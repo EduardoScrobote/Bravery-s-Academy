@@ -8,15 +8,15 @@ export const Feedbacks: FeedbacksProp = [
     duration: "3 meses",
     playerProfile: (
       <img
-        src="/thug-profile.jpg"
+        src="/profiles/thug-profile.jpg"
         alt="player profile photo"
         width={64}
         height={64}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
-    before: "1850",
-    after: "2320",
+    before: "cruzader1",
+    after: "archon2",
   },
   {
     name: "Claudio `X1mba` mengarda Filho",
@@ -25,15 +25,15 @@ export const Feedbacks: FeedbacksProp = [
     duration: "4 meses",
     playerProfile: (
       <img
-        src="/x1imba-profile.jpg"
+        src="/profiles/x1imba-profile.jpg"
         alt="player profile photo"
         width={64}
         height={64}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
-    before: "3234",
-    after: "4820",
+    before: "legend2",
+    after: "divine2",
   },
   {
     name: "Eduardo Scrobote",
@@ -42,14 +42,65 @@ export const Feedbacks: FeedbacksProp = [
     duration: "4 meses",
     playerProfile: (
       <img
-        src="/Scrobote-profile.jpeg"
+        src="/profiles/Scrobote-profile.jpeg"
         alt="player profile photo"
         width={64}
         height={64}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
-    before: "770",
-    after: "3388",
+    before: "guardian1",
+    after: "legend3",
+  },
+  {
+    name: "Ocrizio 'Gohan' Augusto Neto",
+    feedback:
+      "Bravery passando pra agradecer por todos ensinamentos mano. Cheguei no meu maior mmr desde que iniciei no dota 2, lenda 2. Pra quem já passou quase 10 anos sendo guardião-cruzado, é um crescimento muito grande dentro do “joguinho” que hoje se tornou meu lazer. Tu é brabo mano, obrigado demais por todos ensinamentos",
+    duration: "4 meses",
+    playerProfile: (
+      <img
+        src="/profiles/ocrizio-profile.jpeg"
+        alt="player profile photo"
+        width={64}
+        height={64}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "guardian3",
+    after: "legend2",
+  },
+  {
+    name: "Vinicius 'Hideoshy' Cardoso",
+    feedback:
+      "Dae brave, a Academy é a minha melhor experiência em dota, a forma didática e clara que o conteúdo é apresentado acelerou meu crescimento in game deforma absurda. Atingi minha primeira meta que era o Arconte com poucas partidas, sempre aplicando e refinando oq voce passa nas aulas. E sua dedicação nesse jogo e a paixão pela competição é contagiante. Agradeço demais os ensinamentos professor, tmj.",
+    duration: "4 meses",
+    playerProfile: (
+      <img
+        src="/profiles/vini-profile.jpg"
+        alt="player profile photo"
+        width={64}
+        height={64}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "herald2",
+    after: "archon1",
+  },
+  {
+    name: "Guilherme `Thug` Castro",
+    feedback:
+      "Fala bravery, mano tô passando aqui pra te falar que as minhas partidas melhoraram muito, tô mais comunicativo, entendendo mais o game, vendo o que é melhor pra cada game em termos de itens, sem falar na segurança de saber o que a gente tá fazendo, a minha evolução tá muito nítida, haha, muito obrigado viu, tmj",
+    duration: "3 meses",
+    playerProfile: (
+      <img
+        src="/profiles/thug-profile.jpg"
+        alt="player profile photo"
+        width={64}
+        height={64}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "cruzader1",
+    after: "archon2",
   },
 ];

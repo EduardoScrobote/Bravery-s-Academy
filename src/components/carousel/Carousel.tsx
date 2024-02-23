@@ -1,31 +1,41 @@
 import { motion } from "framer-motion";
 import { Feedbacks } from "./Feedbacks";
 import { GoArrowRight } from "react-icons/go";
-
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 function Carousel() {
-  const carousel = useRef(null);
-  const [width, setWidth] = useState(0);
+  const refCarousel = useRef(null);
 
-  useEffect(() => {
+  const next = () => {
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    setWidth(carousel.current?.scrollWidth - carousel.current?.offsetWidth);
+    refCarousel.current.scrollLeft += 1;
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
+    if (refCarousel.current?.scrollLeft >= 1416) {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      refCarousel.current.scrollLeft = 0;
+    }
+  };
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      next();
+      // Função que será executada a cada 1 segundo
+    }, 30); // Intervalo de 1 segundo
+
+    return () => {
+      clearInterval(intervalId); // Limpa o intervalo quando o componente é desmontado
+    };
   }, []);
 
   return (
     <div className="w-full m-0 min-h-450px flex items-center justify-center">
       <motion.div
-        ref={carousel}
-        whileTap={{ cursor: "grabbing" }}
-        className="cursor-grab flex overflow-hidden max-w-[930px]"
+        ref={refCarousel}
+        className=" flex overflow-x-hidden transition duration-800 max-w-[930px]"
       >
-        <motion.div
-          drag="x"
-          dragConstraints={{ right: 0, left: -width }}
-          className="flex gap-6"
-        >
+        <motion.div className="flex gap-6">
           {Feedbacks.map((prop, i) => (
             <motion.div
               className="w-[450px] p-4 pointer-events-none text-white rounded-xl mb-16 bg-[#51504e]"

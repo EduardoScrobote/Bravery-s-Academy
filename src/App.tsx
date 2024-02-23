@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import "./App.css";
 import Benefits from "./components/Benefits";
 import Capture from "./components/CapturePage";
+import Carousel from "./components/carousel/Carousel";
 function App() {
   return (
     <motion.div
@@ -12,6 +13,7 @@ function App() {
     >
       <Capture />
       <Benefits />
+      <Carousel />
     </motion.div>
   );
 }
