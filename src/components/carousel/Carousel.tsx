@@ -1,39 +1,47 @@
 import { motion } from "framer-motion";
 import { Feedbacks } from "./Feedbacks";
 import { GoArrowRight } from "react-icons/go";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 function Carousel() {
   const refCarousel = useRef(null);
+  const [carouselEffect, setCarouselEffect] = useState<boolean>(true);
+  const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const next = () => {
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    refCarousel.current.scrollLeft += 1;
-    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-    // @ts-ignore
-    if (refCarousel.current?.scrollLeft >= 1416) {
+    if (!isHovered) {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      refCarousel.current.scrollLeft = 0;
+      refCarousel.current.scrollLeft += carouselEffect;
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      if (refCarousel.current?.scrollLeft >= 1416) {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        refCarousel.current.scrollLeft = 0;
+      }
     }
   };
+
   useEffect(() => {
     const intervalId = setInterval(() => {
       next();
-      // Função que será executada a cada 1 segundo
-    }, 30); // Intervalo de 1 segundo
+    }, 30);
 
     return () => {
-      clearInterval(intervalId); // Limpa o intervalo quando o componente é desmontado
+      clearInterval(intervalId);
     };
-  }, []);
+  }, [carouselEffect, isHovered]);
 
   return (
-    <div className="w-full m-0 min-h-450px flex items-center justify-center">
+    <div
+      className="w-full min-h-450px flex items-center justify-center"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       <motion.div
         ref={refCarousel}
-        className=" flex overflow-x-hidden transition duration-800 max-w-[930px]"
+        className="flex overflow-x-hidden transition duration-800 max-w-[930px]"
       >
         <motion.div className="flex gap-6">
           {Feedbacks.map((prop, i) => (

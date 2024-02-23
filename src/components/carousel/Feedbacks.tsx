@@ -21,7 +21,7 @@ export const Feedbacks: FeedbacksProp = [
   {
     name: "Claudio `X1mba` mengarda Filho",
     feedback:
-      "Fica aqui meu Feedback sobre a Bravery Academy e meu grande profe Bravery, que possui uma didática FODA e me ajudou a enxergar falhas recorrentes em minhas partidas e me ajudou muito a subir mmr. O melhor ensinamento foi ver que o maior motivo de não estar subindo ou de não estar ganhando era porque a culpa era minha. Superei, ganhei 1900 de mmr em 3 meses.",
+      "Fica aqui meu Feedback sobre a Bravery`s Academy e meu grande profe Bravery, que possui uma didática FODA e me ajudou a enxergar falhas recorrentes em minhas partidas e me ajudou muito a subir mmr. O melhor ensinamento foi ver que o maior motivo de não estar subindo ou de não estar ganhando era porque a culpa era minha. Superei, ganhei 1900 de mmr em 3 meses.",
     duration: "4 meses",
     playerProfile: (
       <img
@@ -38,7 +38,7 @@ export const Feedbacks: FeedbacksProp = [
   {
     name: "Eduardo Scrobote",
     feedback:
-      "Fala brave, gostaria de deixar meu feedback sobre a bravery academy, com tudo que aprendi no coach, estava sempre preparado para os games, mentalmente, técnicamente, antenado no meta e com o conhecimento suficiente para stompar os jogos mesmo como suporte 5, além do preparo psicológico que me fez aproveitar melhor esse jogo tão incrivel. Acho que é isso. PRA CIMA BRAVOS!!!!",
+      "Fala brave, gostaria de deixar meu feedback sobre a Bravery`s Academy com tudo que aprendi no coach, estava sempre preparado para os games, mentalmente, técnicamente, antenado no meta e com o conhecimento suficiente para stompar os jogos mesmo como suporte 5, além do preparo psicológico que me fez aproveitar melhor esse jogo tão incrivel. Acho que é isso. PRA CIMA BRAVOS!!!!",
     duration: "4 meses",
     playerProfile: (
       <img

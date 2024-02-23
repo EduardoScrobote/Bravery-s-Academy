@@ -13,7 +13,7 @@ function App() {
     >
       <Capture />
       <Benefits />
-      <div className="w-full h-screen items-center flex flex-col">
+      <div className="w-full h-screen mt-[100px] items-center flex flex-col">
         <h1 className="mb-16 text-braves-red text-[52px] font-bold">
           Feedback dos Bravos
         </h1>
