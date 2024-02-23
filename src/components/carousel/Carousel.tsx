@@ -34,7 +34,7 @@ function Carousel() {
   }, [carouselEffect, isHovered]);
 
   return (
-    <div className="w-full min-h-450px flex items-centerjustify-center">
+    <div className="w-full min-h-450px flex items-center justify-center">
       <motion.div
         ref={refCarousel}
         className="flex overflow-x-hidden transition duration-800 max-w-[930px]"
