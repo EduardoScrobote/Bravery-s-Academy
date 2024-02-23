@@ -5,7 +5,7 @@ import { useEffect, useRef, useState } from "react";
 
 function Carousel() {
   const refCarousel = useRef(null);
-  const [carouselEffect, setCarouselEffect] = useState<boolean>(true);
+  const [carouselEffect] = useState<boolean>(true);
   const [isHovered, setIsHovered] = useState<boolean>(false);
 
   const next = () => {
@@ -31,6 +31,7 @@ function Carousel() {
     return () => {
       clearInterval(intervalId);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [carouselEffect, isHovered]);
 
   return (
