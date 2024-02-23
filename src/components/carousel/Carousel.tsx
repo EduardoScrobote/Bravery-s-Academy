@@ -38,7 +38,7 @@ function Carousel() {
         <motion.div className="flex gap-6">
           {Feedbacks.map((prop, i) => (
             <motion.div
-              className="w-[450px] p-4 pointer-events-none text-white rounded-xl mb-16 bg-[#51504e]"
+              className="w-[450px] max-h-[400px] overflow-y-hidden p-4 pointer-events-none text-white rounded-xl mb-16 bg-[#51504e]"
               key={i}
             >
               <div className="flex bg-transparent w-full h-24 overflow-hidden justify-center items-center gap-8">
@@ -48,13 +48,13 @@ function Carousel() {
                 </h1>
               </div>
               <div>
-                <p className="mt-8 text-lg">{prop.feedback}</p>
+                <p className="mt-8 text-sm">{prop.feedback}</p>
               </div>
               <div className="flex gap-8 justify-center items-center mt-8">
                 <img
                   src={`/medals/${prop.before}.webp`}
                   alt="crusader-3"
-                  className="w-24 h-24"
+                  className="w-16 h-16"
                 />
                 <div className="flex flex-col justify-center items-center">
                   <GoArrowRight size={32} />
@@ -62,7 +62,7 @@ function Carousel() {
                 <img
                   src={`/medals/${prop.after}.webp`}
                   alt="crusader-3"
-                  className="w-24 h-24"
+                  className="w-16 h-16"
                 />
               </div>
             </motion.div>

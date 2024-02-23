@@ -13,7 +13,12 @@ function App() {
     >
       <Capture />
       <Benefits />
-      <Carousel />
+      <div className="w-full h-screen items-center flex flex-col">
+        <h1 className="mb-16 text-braves-red text-[52px] font-bold">
+          Feedback dos Bravos
+        </h1>
+        <Carousel />
+      </div>
     </motion.div>
   );
 }

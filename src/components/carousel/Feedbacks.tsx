@@ -10,8 +10,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/thug-profile.jpg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
@@ -27,8 +27,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/x1imba-profile.jpg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
@@ -44,8 +44,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/Scrobote-profile.jpeg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
@@ -61,8 +61,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/ocrizio-profile.jpeg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
@@ -78,8 +78,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/vini-profile.jpg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
@@ -95,8 +95,8 @@ export const Feedbacks: FeedbacksProp = [
       <img
         src="/profiles/thug-profile.jpg"
         alt="player profile photo"
-        width={64}
-        height={64}
+        width={32}
+        height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),

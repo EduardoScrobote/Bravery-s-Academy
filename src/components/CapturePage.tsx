@@ -28,16 +28,16 @@ function Capture() {
             <p className="text-lg font-semibold hover:bg-slate-500 hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100">
               Feedbacks
             </p>
-            <button className="bg-[#c43f22] hover:bg-flame bg-cover bg-center p-2 rounded-lg font-bold hover:scale-110 hover:cursor-pointer transition duration-300">
+            <button className="bg-braves-red hover:bg-flame bg-cover bg-center p-2 rounded-lg font-bold hover:scale-110 hover:cursor-pointer transition duration-300">
               UP MMR!
             </button>
           </div>
         </div>
         <div className="h-screen flex items-end ml-[467px]  mb-56">
           <h1 className="w-[36rem] font-bold text-[52px]">
-            Alcance o <span className="text-[#c43f22]">MMR</span> dos seus
+            Alcance o <span className="text-braves-red">MMR</span> dos seus
             sonhos com a{" "}
-            <span className="text-[#c43f22]">Bravery`s Academy!</span>
+            <span className="text-braves-red">Bravery`s Academy!</span>
           </h1>
         </div>
       </motion.div>
