@@ -34,16 +34,16 @@ function Carousel() {
   }, [carouselEffect, isHovered]);
 
   return (
-    <div
-      className="w-full min-h-450px flex items-center justify-center"
-      onMouseEnter={() => setIsHovered(true)}
-      onMouseLeave={() => setIsHovered(false)}
-    >
+    <div className="w-full min-h-450px flex items-centerjustify-center">
       <motion.div
         ref={refCarousel}
         className="flex overflow-x-hidden transition duration-800 max-w-[930px]"
       >
-        <motion.div className="flex gap-6">
+        <motion.div
+          onMouseEnter={() => setIsHovered(true)}
+          onMouseLeave={() => setIsHovered(false)}
+          className="flex gap-6"
+        >
           {Feedbacks.map((prop, i) => (
             <motion.div
               className="w-[450px] max-h-[400px] overflow-y-hidden p-4 pointer-events-none text-white rounded-xl mb-16 bg-[#51504e]"
