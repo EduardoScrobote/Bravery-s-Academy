@@ -11,6 +11,7 @@ export default {
     },
     backgroundImage: {
       "main-bg": "url('/background-image.jpeg')",
+      "coach-bg": "url('/bg-coach-2.jpeg')",
       flame: "url('/fire-22.gif')",
     },
   },
