@@ -1,8 +1,16 @@
-function Button() {
+type Button = {
+  text: string;
+  height?: string;
+  width?: string;
+  m?: string;
+};
+function Button({ text, height, width, m }: Button) {
   return (
     <div>
-      <button className="w-64 h-16 bg-[#E7D006] rounded-md text-2xl font-bold hover:scale-110 transition duration-300 text-black">
-        Quero ganhar MMR
+      <button
+        className={`bg-braves-red ${height} ${width} ${m} hover:bg-flame  bg-cover bg-center p-2 rounded-lg font-bold hover:scale-110 hover:cursor-pointer transition duration-300`}
+      >
+        {text}
       </button>
     </div>
   );

@@ -2,13 +2,14 @@ import { Link } from "react-router-dom";
 
 type Header = {
   background: string;
+  brightness: string;
 };
 
-function Header({ background }: Header) {
+function Header({ background, brightness }: Header) {
   return (
     <div>
       <div
-        className={`absolute top-0 -z-10 w-full h-screen bg-center ${background} bg-no-repeat bg-cover brightness-50`}
+        className={`absolute top-0 -z-10 w-full h-screen bg-center ${background} bg-no-repeat bg-cover ${brightness}`}
       ></div>
       <div className="flex text-white gap-[25%] w-[100%] justify-center mt-2">
         <img

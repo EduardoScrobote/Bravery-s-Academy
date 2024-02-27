@@ -1,5 +1,6 @@
 import { FaPix } from "react-icons/fa6";
 import { IoCardOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -21,7 +22,7 @@ function Footer() {
           <h1 className="font-bold">Serviços</h1>
           <p className="mt-4 mb-2 ml-2 hover:cursor-pointer hover:text-braves-red hover:scale-110 duration-300">
             <span className="mr-2">&#8226;</span>
-            Coach individual
+            <Link to="/coach">Coach individual</Link>
           </p>
           <p className="mt-2 mb-2 ml-2 hover:cursor-pointer hover:text-braves-red hover:scale-110 duration-300">
             <span className="mr-2">&#8226;</span>

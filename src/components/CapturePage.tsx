@@ -10,7 +10,7 @@ function Capture() {
       className="w-full h-screen"
     >
       <motion.div className="h-[100vh] flex flex-col justify-center text-white">
-        <Header background="bg-main-bg" />
+        <Header background="bg-main-bg" brightness="brightness-[0.5]" />
         <div className="h-screen flex items-end ml-[467px]  mb-56">
           <h1 className="w-[36rem] font-bold text-[52px]">
             Alcance o <span className="text-braves-red">MMR</span> dos seus
