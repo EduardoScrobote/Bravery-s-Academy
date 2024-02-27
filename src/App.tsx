@@ -4,6 +4,7 @@ import Benefits from "./components/Benefits";
 import Capture from "./components/CapturePage";
 import Carousel from "./components/carousel/Carousel";
 import Bravery from "./components/coachs/Bravery/Bravery";
+import Footer from "./components/Footer";
 function App() {
   return (
     <motion.div
@@ -21,6 +22,7 @@ function App() {
         <Carousel />
       </div>
       <Bravery />
+      <Footer />
     </motion.div>
   );
 }

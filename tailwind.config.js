@@ -5,6 +5,8 @@ export default {
     extend: {
       colors: {
         "braves-red": "#c43f22",
+        "braves-secondary": "#0b101d",
+        pix: "#08bfb1",
       },
     },
     backgroundImage: {

@@ -47,7 +47,7 @@ function Carousel() {
         >
           {Feedbacks.map((prop, i) => (
             <motion.div
-              className="w-[450px] max-h-[400px] overflow-y-hidden p-4 pointer-events-none text-white rounded-xl mb-16 bg-[#51504e]"
+              className="w-[450px] max-h-[400px] overflow-y-hidden p-4 pointer-events-none text-white rounded-xl mb-16 bg-braves-secondary"
               key={i}
             >
               <div className="flex bg-transparent w-full h-24 overflow-hidden justify-center items-center gap-8">

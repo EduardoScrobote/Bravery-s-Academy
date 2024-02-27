@@ -13,9 +13,9 @@ function Bravery() {
         <div className="w-[32rem]">
           <h1 className="text-white text-[28px]">
             Coach profissional de dota 2 desde 2022, já alcançou{" "}
-            <span className="text-braves-red">7.000 MMR</span> e levou diversos
-            alunos até os ranks mais altos,{" "}
-            <span className="text-braves-red">
+            <span className="text-braves-red font-semibold">7.000 MMR</span> e
+            levou diversos alunos até os ranks mais altos,{" "}
+            <span className="text-braves-red font-semibold">
               com alunos batendo a média dos 6.000MMR
             </span>
           </h1>

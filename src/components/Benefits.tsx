@@ -45,7 +45,7 @@ function Benefits() {
           </p>
         </div>
         <div className="w-[310px] h-[175px] bg-black border hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] shadow-white p-4 border-white rounded-[24px] flex flex-col  hover:shadow-braves-red hover:text-braves-red hover:border-braves-red  hover:scale-110 duration-300 cursor-default">
-          <h1 className="text-white text-xl font-bold">Lobbyes entre alunos</h1>
+          <h1 className="text-white text-xl font-bold">Lobbies entre alunos</h1>
           <p className="text-slate-300 text-sm mt-4">
             Lobbies semanais promovem jogos entre alunos, proporcionando
             evolução conjunta, aprendizado e partidas de alto nível com
