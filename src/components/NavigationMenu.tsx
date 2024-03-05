@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { motion, Variants } from "framer-motion";
 import { Link } from "react-router-dom";
+import { MdOutlineKeyboardArrowDown } from "react-icons/md";
 
 const itemVariants: Variants = {
   open: {
@@ -23,7 +24,7 @@ export default function App() {
       <motion.button
         whileTap={{ scale: 0.97 }}
         onClick={() => setIsOpen(!isOpen)}
-        className="flex justify-center items-center hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2"
+        className="flex justify-center gap-2 items-center hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2"
       >
         Menu
         <motion.div
@@ -34,9 +35,7 @@ export default function App() {
           transition={{ duration: 0.2 }}
           style={{ originY: 0.55 }}
         >
-          <svg width="15" height="15" viewBox="0 0 20 20">
-            <path d="M0 7 L 20 7 L 10 16" />
-          </svg>
+          <MdOutlineKeyboardArrowDown />
         </motion.div>
       </motion.button>
       <motion.ul
