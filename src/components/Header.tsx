@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import NavigationMenu from "./NavigationMenu";
 
 type Header = {
   background: string;
@@ -23,9 +24,9 @@ function Header({ background, brightness }: Header) {
           <p className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100">
             <Link to="/">Inicio</Link>
           </p>
-          <p className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-300">
-            <Link to="/coach">Coach</Link>
-          </p>
+          <div>
+            <NavigationMenu />
+          </div>
           <p className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100">
             Feedbacks
           </p>

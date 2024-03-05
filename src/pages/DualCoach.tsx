@@ -15,8 +15,8 @@ function Coach() {
         <motion.div className="w-[975px] flex justify-center text-white">
           <div className="w-full flex flex-col">
             <h1 className="w-[36rem] text-[28px] font-bold">
-              No serviço de Coaching, o professor Bravery irá ministrar uma aula
-              didática(Analise de Replay){" "}
+              No serviço de Coaching em dupla, o professor Bravery irá ministrar
+              uma aula didática(Analise de Replay){" "}
               <span className="text-braves-red">
                 focada em aprimorar sua gameplay
               </span>{" "}

@@ -5,9 +5,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="flex text-white w-full h-[375px] justify-center items-center bg-braves-secondary">
-      <h1 className="flex absolute text-pix font-bold left-0 items-end w-46 text-sm top-[420%]">
-        Powerd by Eduardo Scrobote Dev
-      </h1>
       <div className="w-[75%] h-full  gap-16 flex justify-center items-center">
         <div className="flex flex-col  h-[250px] max-w-[275px]">
           <h1 className="font-bold">Bravery`s Academy</h1>
