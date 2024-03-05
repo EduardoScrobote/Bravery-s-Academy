@@ -73,13 +73,13 @@ export default function App() {
           className="hover:cursor-pointer hover:bg-braves-secondary hover:p-2 duration-300"
           variants={itemVariants}
         >
-          Duplas{" "}
+          <Link to="/coach/dual">Duplas</Link>
         </motion.li>
         <motion.li
           className="hover:cursor-pointer hover:bg-braves-secondary hover:p-2 duration-300"
           variants={itemVariants}
         >
-          Equipes{" "}
+          <Link to="/coach/teams">Times</Link>
         </motion.li>
       </motion.ul>
     </motion.nav>
