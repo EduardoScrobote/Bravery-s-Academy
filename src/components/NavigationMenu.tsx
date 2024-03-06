@@ -26,7 +26,7 @@ export default function App() {
         onClick={() => setIsOpen(!isOpen)}
         className="flex justify-center gap-2 items-center hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2"
       >
-        Menu
+        Coach
         <motion.div
           variants={{
             open: { rotate: 180 },
