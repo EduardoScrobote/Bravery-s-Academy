@@ -15,13 +15,11 @@ function Coach() {
         <motion.div className="w-[975px] flex justify-center text-white">
           <div className="w-full flex flex-col">
             <h1 className="w-[36rem] text-[28px] font-bold">
-              No serviço de Coaching em dupla, o professor Bravery irá ministrar
-              uma aula didática(Analise de Replay){" "}
-              <span className="text-braves-red">
-                focada em aprimorar sua gameplay
-              </span>{" "}
-              e mindset, te ajudando a corrigir seus erros. Cada aula tem
-              duração aproximada de 1h-1h10min e é realizada via Discord.
+              No serviço de Coaching Dual, o professor Bravery irá ministrar a
+              aula em dupla, onde iremos trabalhar diretamente na dificuldade e
+              na melhoria da gameplay da dual da Safe Lane ou Off Lane com
+              analise de replays e aulas práticas, onde irei ditar o ritmo do
+              jogo.
             </h1>
             <div className="mt-12">
               <Button

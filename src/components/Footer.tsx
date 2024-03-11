@@ -28,7 +28,14 @@ function Footer() {
         </div>
         <div className="flex flex-col items-start h-[250px]  max-w-[350px]">
           <h1 className="font-bold">Contato</h1>
-          <p className="mt-4 mb-2 ml-2 hover:cursor-pointer hover:text-braves-red hover:scale-110 duration-300">
+          <p
+            onClick={() =>
+              window.open(
+                "https://wa.me//557582969889?text=Gostaria%20de%20saber%20mais%20sobre%20o%20coach"
+              )
+            }
+            className="mt-4 mb-2 ml-2 hover:cursor-pointer hover:text-braves-red hover:scale-110 duration-300"
+          >
             <span className="mr-2">&#8226;</span>
             Whatsapp
           </p>

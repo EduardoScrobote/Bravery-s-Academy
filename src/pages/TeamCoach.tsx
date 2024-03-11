@@ -15,13 +15,17 @@ function Coach() {
         <motion.div className="w-[975px] flex justify-center text-white">
           <div className="w-full flex flex-col">
             <h1 className="w-[36rem] text-[28px] font-bold">
-              No serviço de Coaching em dupla, o professor Bravery irá ministrar
-              uma aula didática(Analise de Replay){" "}
-              <span className="text-braves-red">
-                focada em aprimorar sua gameplay
-              </span>{" "}
-              e mindset, te ajudando a corrigir seus erros. Cada aula tem
-              duração aproximada de 1h-1h10min e é realizada via Discord.
+              No serviço de coaching de equipes, realizaremos uma análise de
+              replays e discutiremos{" "}
+              <span className="text-braves-red ">estratégias</span> para a
+              construção do early e mid game, baseadas em drafts planejados com
+              a pool de heróis da equipe. Consideraremos os{" "}
+              <span className="text-braves-red ">
+                principais pilares da vitória no Dota 2
+              </span>
+              , além de discutir como inovar e planejar estratégias de forma
+              mais eficiente. Com duração aproximada de 01:30 a 02:00 Horas de
+              duração
             </h1>
             <div className="mt-12">
               <Button

@@ -30,7 +30,14 @@ function Header({ background, brightness }: Header) {
           <p className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100">
             Feedbacks
           </p>
-          <button className="bg-braves-red hover:bg-flame bg-cover bg-center p-2 rounded-lg font-bold hover:scale-110 hover:cursor-pointer transition duration-300">
+          <button
+            onClick={() =>
+              window.open(
+                "https://wa.me//557582969889?text=Gostaria%20de%20saber%20mais%20sobre%20o%20coach"
+              )
+            }
+            className="bg-braves-red hover:bg-flame bg-cover bg-center p-2 rounded-lg font-bold hover:scale-110 hover:cursor-pointer transition duration-300"
+          >
             UP MMR!
           </button>
         </div>
