@@ -27,7 +27,10 @@ function Header({ background, brightness }: Header) {
           <div>
             <NavigationMenu />
           </div>
-          <p className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100">
+          <p
+            onClick={() => window.scrollTo({ top: 1900, behavior: "smooth" })}
+            className="text-lg font-semibold hover:bg-braves-secondary hover:cursor-pointer hover:scale-110 rounded-md p-2 transition duration-100"
+          >
             Feedbacks
           </p>
           <button
