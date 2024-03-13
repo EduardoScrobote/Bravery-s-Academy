@@ -31,14 +31,14 @@ function MobileBenefits() {
           <h1 className="text-white text-xl font-bold">
             Grupo de WhatsApp para os alunos do coaching
           </h1>
-          <p className="text-slate-300 text-sm mt-4">
+          <p className="text-slate-300 text-lg mt-4">
             interaja, faça amigos, discuta estratégias, metas, monte grupos e
             garanta a vitória.
           </p>
         </div>
         <div className=" w-[100%] p-4 h-[16rem] bg-black border hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] shadow-white  border-white rounded-[24px] flex flex-col  hover:shadow-braves-red hover:text-braves-red hover:border-braves-red  hover:scale-110 duration-300 cursor-default">
           <h1 className="text-white text-xl font-bold">Metodologia flexível</h1>
-          <p className="text-slate-300 text-sm mt-4">
+          <p className="text-slate-300 text-lg mt-4">
             o professor identificará seus principais erros e explicará
             conceitos, treinos e ideias de maneira eficiente e adaptável, para
             se adequar a cada forma de aprendizado dos alunos!
@@ -46,7 +46,7 @@ function MobileBenefits() {
         </div>
         <div className="w-[100%] h-[16rem] bg-black border hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] shadow-white p-4 border-white rounded-[24px] flex flex-col  hover:shadow-braves-red hover:text-braves-red hover:border-braves-red  hover:scale-110 duration-300 cursor-default">
           <h1 className="text-white text-xl font-bold">Lobbies entre alunos</h1>
-          <p className="text-slate-300 text-sm mt-4">
+          <p className="text-slate-300 text-lg mt-4">
             Lobbies semanais promovem jogos entre alunos, proporcionando
             evolução conjunta, aprendizado e partidas de alto nível com
             jogadores Imortais e Divines.
