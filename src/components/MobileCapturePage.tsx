@@ -12,7 +12,7 @@ function MobileCapture() {
       <motion.div className="h-[100vh] flex flex-col justify-center text-white">
         <MobileHeader background="bg-main-bg" brightness="brightness-[0.5]" />
         <div className="h-screen flex text-center items-end mb-96">
-          <h1 className="w-[42rem] font-bold text-[28px]">
+          <h1 className="w-[42rem] font-bold text-[44px]">
             Alcance o <span className="text-braves-red">MMR</span> dos seus
             sonhos com a{" "}
             <span className="text-braves-red">Bravery`s Academy!</span>
