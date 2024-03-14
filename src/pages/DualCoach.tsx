@@ -12,7 +12,12 @@ function Coach() {
         transition={{ duration: 0.3 }}
         className="w-full h-screen flex justify-center items-center"
       >
-        <motion.div className="w-[975px] flex justify-center text-white">
+        <motion.div
+          initial={{ x: -2000 }}
+          animate={{ x: 0 }}
+          transition={{ duration: 0.8 }}
+          className="w-[975px] flex justify-center text-white"
+        >
           <div className="w-full flex flex-col">
             <h1 className="w-[36rem] text-[28px] font-bold">
               No serviço de Coaching Dual, o professor Bravery irá ministrar a

@@ -1,5 +1,3 @@
-import { RxHamburgerMenu } from "react-icons/rx";
-
 type Header = {
   background: string;
   brightness: string;
@@ -11,8 +9,7 @@ function MobileHeader({ background, brightness }: Header) {
       <div
         className={`absolute top-0 -z-10 w-full h-screen bg-center ${background} bg-no-repeat bg-cover ${brightness}`}
       ></div>
-      <div className="flex text-white justify-between p-8 mt-2">
-        <RxHamburgerMenu size={"10%"} />
+      <div className="flex text-white justify-end p-8 mt-2">
         <img
           src="/logo.jpeg"
           alt="logo bravery"

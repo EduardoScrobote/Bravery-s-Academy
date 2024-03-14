@@ -21,7 +21,14 @@ function Bravery() {
           </h1>
         </div>
       </div>
-      <button className="text-white bg-braves-red h-14 p-4 rounded-lg font-bold hover:scale-125 duration-300">
+      <button
+        onClick={() =>
+          window.open(
+            "https://wa.me//557582969889?text=Gostaria%20de%20saber%20mais%20sobre%20o%20coach"
+          )
+        }
+        className="text-white bg-braves-red h-14 p-4 rounded-lg font-bold hover:scale-125 duration-300"
+      >
         Quero ganhar MMR
       </button>
     </div>
