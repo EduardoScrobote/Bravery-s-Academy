@@ -66,7 +66,7 @@ function InitialPage() {
           onClick={() => setOpenHamburguer(true)}
           className="w-full ml-8 h-16 rounded-full flex absolute top-10"
         >
-          <RxHamburgerMenu size={"32px"} color="white" />
+          <RxHamburgerMenu size={"64px"} color="white" />
         </div>
         <MobileCapture />
         <MobileBenefits />
