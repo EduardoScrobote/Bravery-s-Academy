@@ -15,7 +15,7 @@ function Carousel() {
       refCarousel.current.scrollLeft += carouselEffect;
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      if (refCarousel.current?.scrollLeft >= 2786) {
+      if (refCarousel.current?.scrollLeft >= 3236) {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         refCarousel.current.scrollLeft = 0;
