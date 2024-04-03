@@ -15,7 +15,7 @@ function MobileCarousel() {
       refCarousel.current.scrollLeft += carouselEffect;
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      if (refCarousel.current?.scrollLeft >= 1290) {
+      if (refCarousel.current?.scrollLeft >= 1690) {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
         refCarousel.current.scrollLeft = 0;

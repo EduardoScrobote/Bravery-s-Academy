@@ -87,20 +87,54 @@ export const Feedbacks: FeedbacksProp = [
     after: "archon1",
   },
   {
-    name: "Guilherme `Thug` Castro",
+    name: "Platão",
     feedback:
-      "Fala bravery, mano tô passando aqui pra te falar que as minhas partidas melhoraram muito, tô mais comunicativo, entendendo mais o game, vendo o que é melhor pra cada game em termos de itens, sem falar na segurança de saber o que a gente tá fazendo, a minha evolução tá muito nítida, haha, muito obrigado viu, tmj",
+      "Quero começar expressando minha imensa gratidão pelo seu trabalho como coach de Dota 2. Sua dedicação incansável em nos ajudar a melhorar não passa despercebida, e estou verdadeiramente impressionado com o seu compromisso em nos guiar rumo ao sucesso.",
     duration: "3 meses",
     playerProfile: (
       <img
-        src="/profiles/thug-profile.jpg"
+        src="/profiles/plataoprofile.jpg"
         alt="player profile photo"
         width={32}
         height={32}
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
-    before: "cruzader1",
-    after: "archon2",
+    before: "ancient2",
+    after: "6500",
+  },
+  {
+    name: "MFC",
+    feedback:
+      "Minha passagem pela Bravery Academy, foi algo muito importante para minha evolução no Dota 2. Com certeza irei recomendar para meus amigos e se possível continuar fazendo. A Bravery academy influenciou na minha vitoria do campeonato LDU com a Canarinho Pistola, e alcançar objetivos como pegar divine pela primeira vez. Recomendo e muito a Bravery Acadmey.",
+    duration: "3 meses",
+    playerProfile: (
+      <img
+        src="/profiles/mfcprofile.jpg"
+        alt="player profile photo"
+        width={32}
+        height={32}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "ancient2",
+    after: "divine2",
+  },
+  {
+    name: "Iron",
+    feedback:
+      "Incrível o conhecimento que eu venho adquirindo a cada aulas nossa,a visão de como jogar dota  que eu jamais tinha visto,do simples detalhes ao avançado. Com muita certeza venho melhorando o meu dota graças a voce meu Bom,e vou melhorar cada vez com as próximas aulas. Vlw de + por passar esse conhecimento com toda paciência do mundo,so tenho a agradecer. Tmj #BreveryAcademy",
+    duration: "3 meses",
+    playerProfile: (
+      <img
+        src="/profiles/ironprofile.jpg"
+        alt="player profile photo"
+        width={32}
+        height={32}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "ancient2",
+    after: "ancient5",
   },
 ];
