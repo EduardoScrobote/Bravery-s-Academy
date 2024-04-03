@@ -137,4 +137,21 @@ export const Feedbacks: FeedbacksProp = [
     before: "ancient2",
     after: "ancient5",
   },
+  {
+    name: "Emanuel `Three` ",
+    feedback:
+      "Boa tarde meu amigo, sobre a bravery's academy só tem coisas boas para dizer, foi uma experiência muito boa as aulas sempre com muita atenção ao detalhes, depois que comecei já fui subindo muito mmr de cara, coisa que não estava acontecendo há um tempinho, no geral foi muito bom ensinaram muito bem sobre Lane, sobre o jogo no geral, vou sempre recomendar pra qualquer um que queira subir mmr e aprender mais sobre o dota e chegar no tão sonhado imortal, muito bom.👌🏽🔥",
+    duration: "3 meses",
+    playerProfile: (
+      <img
+        src="/profiles/threeprofile.jpg"
+        alt="player profile photo"
+        width={32}
+        height={32}
+        className="w-24 h-24 rounded-full bg-cover bg-center"
+      />
+    ),
+    before: "divine2",
+    after: "6500",
+  },
 ];
