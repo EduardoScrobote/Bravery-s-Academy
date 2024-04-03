@@ -140,7 +140,7 @@ export const Feedbacks: FeedbacksProp = [
   {
     name: "Emanuel `Three` ",
     feedback:
-      "Boa tarde meu amigo, sobre a bravery's academy só tem coisas boas para dizer, foi uma experiência muito boa as aulas sempre com muita atenção ao detalhes, depois que comecei já fui subindo muito mmr de cara, coisa que não estava acontecendo há um tempinho, no geral foi muito bom ensinaram muito bem sobre Lane, sobre o jogo no geral, vou sempre recomendar pra qualquer um que queira subir mmr e aprender mais sobre o dota e chegar no tão sonhado imortal, muito bom.👌🏽🔥",
+      "Boa tarde meu amigo, sobre a bravery's academy só tem coisas boas para dizer, foi uma experiência muito boa as aulas sempre com muita atenção ao detalhes, depois que comecei já fui subindo muito mmr de cara, no geral foi muito bom ensinaram muito bem sobre Lane, sobre o jogo no geral, vou sempre recomendar pra qualquer um que queira subir mmr e aprender mais sobre o dota e chegar no tão sonhado imortal, excelente.",
     duration: "3 meses",
     playerProfile: (
       <img
