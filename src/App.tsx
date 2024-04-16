@@ -8,13 +8,15 @@ import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
-    <Routes>
+    <>
       <Analytics />
-      <Route path="/" element={<InitialPage />} />
-      <Route path="/coach" element={<Coach />} />
-      <Route path="/coach/dual" element={<DualCoach />} />
-      <Route path="/coach/teams" element={<TeamCoach />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<InitialPage />} />
+        <Route path="/coach" element={<Coach />} />
+        <Route path="/coach/dual" element={<DualCoach />} />
+        <Route path="/coach/teams" element={<TeamCoach />} />
+      </Routes>
+    </>
   );
 }
 
