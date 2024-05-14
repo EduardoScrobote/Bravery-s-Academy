@@ -32,8 +32,8 @@ export const Feedbacks: FeedbacksProp = [
         className="w-24 h-24 rounded-full bg-cover bg-center"
       />
     ),
-    before: "legend2",
-    after: "divine2",
+    before: "legend1",
+    after: "divine3",
   },
   {
     name: "Eduardo Scrobote",
@@ -50,7 +50,7 @@ export const Feedbacks: FeedbacksProp = [
       />
     ),
     before: "guardian1",
-    after: "legend3",
+    after: "ancient1",
   },
   {
     name: "Ocrizio 'Gohan' Augusto Neto",
